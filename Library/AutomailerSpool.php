@@ -4,7 +4,7 @@ namespace TSS\AutomailerBundle\Library;
 
 use TSS\AutomailerBundle\Entity\Automailer as Am;
 
-class AutomailerSpool extends \Swift_ConfigurableSpool
+class AutomailerSpool extends \Swift_FileSpool
 {
     /**
      * The Entity Manager
